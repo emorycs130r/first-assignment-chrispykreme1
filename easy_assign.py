@@ -17,23 +17,20 @@ DO NOT EDIT THE FUNCTION NAMES.
 def append_two_strings(string_1, string_2):
 
     appendage_1 = string_1 + string_2
-    print(appendage_1)
-    return string_1 + string_2
+    return appendage_1
 
 append_two_strings("Hi", "bye")
 
 def append_character(string_1, char_1):
 
     appendage_2 = string_1 + char_1
-    print(appendage_2)
-    return string_1 + char_1
+    return appendage_2
 
 
 def append_num_to_string(string_1, num_1):
 
     appendage_3 = string_1 + str(num_1)
-    print(appendage_3)
-    return string_1 + str(num_1)
+    return appendage_3
 
 
 if __name__ == "__main__":

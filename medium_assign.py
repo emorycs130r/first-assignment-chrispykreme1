@@ -16,22 +16,19 @@ DO NOT EDIT THE FUNCTION NAMES.
 def expression_1(x):
 
     result_1 = x ** 3 - (2 * x + x ** 2) - 100
-    print(result_1)
-    return x ** 3 - (2 * x + x ** 2) - 100
+    return result_1
 
 
 def expression_2(x, y):
 
     result_2 = ((x ** 4 )/ (2 * y)) - (3 * x * y) + ((6 * y) / (7 * x))
-    print(result_2)
-    return (x ** 4 / 2 * y) - (3 * x * y) + (6 * y / 7 * x)
+    return result_2
 
 
 def expression_3(x, y):
     
     result_3 = (x ** 3 + y ** 2) / (x ** 2 - y ** 3)
-    print(result_3)
-    return (x ** 3 + y ** 2) / (x ** 2 - y ** 3)
+    return result_3
 
 
 if __name__ == "__main__":
